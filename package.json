@@ -1,0 +1,22 @@
+{
+  "name": "net.narazaka.unity.bone-tools.physbone-selector",
+  "version": "1.0.0",
+  "displayName": "PhysBoneSelector",
+  "description": "PhysBone Selector",
+  "author": {
+    "name": "Narazaka",
+    "url": "https://github.com/Narazaka"
+  },
+  "license": "Zlib",
+  "type": "tool",
+  "dependencies": {
+  },
+  "vpmDependencies": {
+    "com.vrchat.avatars": "^3.1.0",
+    "net.narazaka.unity.bone-tools.bone-selector": "1.0.0"
+  },
+  "url": "https://github.com/Narazaka/PhysBoneSelector.git#v1.0.0",
+  "legacyFiles": {
+    "Assets\\Narazaka\\Unity\\Editor\\Util\\PhysBoneReference.cs": "d24990b4dc00b1545898accc42ba1d23"
+  }
+}
