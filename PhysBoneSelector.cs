@@ -44,12 +44,12 @@ namespace Narazaka.Unity.BoneTools
 
         public VRCPhysBone[] GetAllPhysBones()
         {
-            return Root.GetComponentsInChildren<VRCPhysBone>();
+            return Root.GetComponentsInChildren<VRCPhysBone>(true);
         }
 
         public VRCPhysBoneCollider[] GetAllPhysBoneColliders()
         {
-            return Root.GetComponentsInChildren<VRCPhysBoneCollider>();
+            return Root.GetComponentsInChildren<VRCPhysBoneCollider>(true);
         }
 #endif
     }
